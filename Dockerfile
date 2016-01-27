@@ -30,7 +30,7 @@ RUN apt-get update \
 RUN wget -q https://github.com/tianon/gosu/releases/download/1.7/gosu-amd64 -O /bin/gosu && chmod +x /bin/gosu
 RUN cd /opt && git clone https://github.com/voc/voctomix.git
 
-EXPOSE 9999 10000 10001 10002 11000 12000 13000 13001 13002 14000 15000 16000 17000 17001 17002 18000 
+EXPOSE 9998 9999 10000 10001 10002 11000 12000 13000 13001 13002 14000 15000 16000 17000 17001 17002 18000 
 VOLUME /video
 
 COPY start-voctocore.sh /opt/start-voctocore.sh
